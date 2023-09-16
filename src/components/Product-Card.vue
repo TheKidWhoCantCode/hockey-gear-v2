@@ -7,7 +7,7 @@
         <p><button>Add to Cart</button></p>
     </div>
     <div class="column">
-        <img :src="productImageSrc" style="width:100%">
+        <img :src="require(`@/assets/${productImageSrc}`)" style="width:100%">
     </div>
 </div>
 </template>

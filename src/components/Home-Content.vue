@@ -2,12 +2,12 @@
     <img src="../assets/Mercian.jpg">
     
     <div class="productContainer">
-        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="../assets/Mercian_CKF_95_ProductImage"></ProductCard>
-        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="../assets/Mercian_CKF_95_ProductImage"></ProductCard>
-        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="../assets/Mercian_CKF_95_ProductImage"></ProductCard>
-        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="../assets/Mercian_CKF_95_ProductImage"></ProductCard>
-        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="../assets/Mercian_CKF_95_ProductImage"></ProductCard>
-        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="../assets/Mercian_CKF_95_ProductImage"></ProductCard>
+        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="Mercian_CKF_95_ProductImage.png"></ProductCard>
+        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="Mercian_CKF_95_ProductImage.png"></ProductCard>
+        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="Mercian_CKF_95_ProductImage.png"></ProductCard>
+        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="Mercian_CKF_95_ProductImage.png"></ProductCard>
+        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="Mercian_CKF_95_ProductImage.png"></ProductCard>
+        <ProductCard productName="Mercian CKF 95" productCopy="Very good hockey stick" price="200" productImageSrc="Mercian_CKF_95_ProductImage.png"></ProductCard>
     </div>
 
 </template>
