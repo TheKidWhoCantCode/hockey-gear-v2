@@ -2,7 +2,19 @@
     <div class="nav">
         <table>
             <tr>
-                <td><h2>Hockey Gear</h2></td>
+                <td>
+                    <div class="logoContainer">
+                        <svg>
+                            <text id="logo" x="50%" y="40%" text-anchor="middle" fill="none">Hockey Gear</text>
+                            <use xlink:href="#logo" class="copy copy1"></use>
+                            <use xlink:href="#logo" class="copy copy2"></use>
+                            <use xlink:href="#logo" class="copy copy3"></use>
+                            <use xlink:href="#logo" class="copy copy4"></use>
+                            <use xlink:href="#logo" class="copy copy5"></use>
+                        </svg>
+                    </div>
+                </td>
+
                 <td><router-link to="/">Home</router-link></td>
                 <td><router-link to="/products">Products</router-link></td>
                 <td><router-link to="/about">About</router-link></td>
@@ -49,5 +61,40 @@ export default {
     img {
         margin-right: 15px;
         width: 20px;
+    }
+    .logoContainer {
+        height: 10vh;
+    }
+    #logo {
+        font-size: 50px;
+    }
+    .copy {
+        fill: none;
+        stroke: #db902d;
+        stroke-width: 2px;
+        stroke-dasharray: 8% 30%;
+        stroke-dashoffset: 0%;
+        animation: logoAnimation 6s linear infinite;
+    }
+    @keyframes logoAnimation {
+        100% {
+            stroke-dashoffset: -35%;
+        }
+    }
+    .copy1 {
+        stroke: rgb(70, 199, 199);
+        animation-delay: -1s;
+    }
+    .copy2 {
+        stroke: rgb(175, 16, 56);
+        animation-delay: -2s;
+    }
+    .copy3 {
+        stroke: rgb(215, 144, 236);
+        animation-delay: -3s;
+    }
+    .copy4 {
+        stroke: rgb(122, 156, 140);
+        animation-delay: -4s;
     }
 </style>
