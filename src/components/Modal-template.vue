@@ -1,6 +1,6 @@
 <template>
     <div class="backdrop" @click.self="closeModal">
-        <div :class="styleClass" >  
+        <div :class="styleClass">  
             <slot></slot>       
         </div>
     </div>

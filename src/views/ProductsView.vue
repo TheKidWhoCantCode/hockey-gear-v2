@@ -115,7 +115,7 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
     .filterBar {
         border-right: 1px solid black;
         height: 25px;
