@@ -18,7 +18,7 @@
                 <td><router-link to="/">Home</router-link></td>
                 <td><router-link to="/products">Products</router-link></td>
                 <td><router-link to="/about">About</router-link></td>
-                <td><router-link to="/contact">contact</router-link></td>
+                <td><router-link to="/contact">Contact</router-link></td>
                 <td v-if="!signedIn">Sign In / Sign Up</td>
                 <td v-if="signedIn">Hello, {{ userName }}!</td>
                 <td><router-link to="/cart"><img src="../assets/cart-ico.png">Cart</router-link></td>
@@ -74,11 +74,14 @@ export default {
         stroke-width: 2px;
         stroke-dasharray: 8% 30%;
         stroke-dashoffset: 0%;
-        animation: logoAnimation 6s linear infinite;
+        animation: logoAnimation 10s linear infinite;
     }
     @keyframes logoAnimation {
-        100% {
+        50% {
             stroke-dashoffset: -35%;
+        }
+        100% {
+            stroke-dashoffset: 0%;
         }
     }
     .copy1 {
